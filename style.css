@@ -18,11 +18,16 @@
 .main_header {
     margin-left: 340px;
     display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 #sub_select {
     height: 40px;
-    width: 100px;
+    width: 110px;
     border: 1px solid white;
     border-radius: 5px;
     background-color: transparent;
@@ -34,10 +39,14 @@
     display: flex;
 }
 
+.side_select{
+    color: black;
+}
+
 #sub_membership_page {
     border: 1px solid white;
     height: 90px;
-    width: 1100px;
+    width: 1150px;
     padding: 10px;
     display: flex;
     background-color: #1F1939;
@@ -52,21 +61,30 @@
 
 #main_btn {
     height: 40px;
-    width: 70px;
+    width: 80px;
     border-radius: 5px;
     color: white;
     background-color: red;
     border: none;
 }
 
+#main_h1{
+    font-size: 60px;
+}
+
 .main_select {
-    margin-left: 1000px;
+    margin-left: 850px;
 }
 
 .main_login {
     text-align: center;
     color: white;
-    margin-top: 300px;
+    margin-top: 350px;
+    margin-left: 600px;
+    position: absolute;
+    display: block; 
+    top: 0;
+    left: 0;
 }
 
 #sub_btn {
@@ -87,6 +105,8 @@
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 5px;
+    padding: 15px;
+    color: white;
 }
 
 #main_login_btn {

@@ -12,26 +12,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="main_page">
-        <br>
-        <header class="main_header">
-            <img src="./logo_img.png" alt="./logo_img" height="50px" width="150px">
-            <div class="main_select">
-                <select id="sub_select" name="korea">
-                    <option value="korean">한국어</option>
-                    <option value="english">english</option>
-                </select>
-                <button id="main_btn">로그인</button>
-            </div>
-        </header>
-        <div class="main_login">
-            <h1>영화 시리즈 등을 <br>무제한으로</h1>
-            <h3>5,500원으로 시작하세요. 해지는 언제든 가능합니다.</h3>
-            <br>
-            <p>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
-            <input id="main_input" type="text" placeholder="이메일 주소">
-            <button id="main_login_btn">시작하기 ></button>
+    <header class="main_header">
+        <img src="./logo_img.png" alt="./logo_img" height="50px" width="150px">
+        <div class="main_select">
+            <select id="sub_select" name="korea">
+                <option class="side_select" value="korean">한국어</option>
+                <option class="side_select" value="English">English</option>
+            </select>
+            <button id="main_btn">로그인</button>
         </div>
+    </header>
+    <div class="main_page"></div>
+    <div class="main_login">
+        <h1 id="main_h1">영화 시리즈 등을 <br>무제한으로</h1>
+        <h3>5,500원으로 시작하세요. 해지는 언제든 가능합니다.</h3>
+        <br>
+        <p>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
+        <input id="main_input" type="text" placeholder="이메일 주소">
+        <button id="main_login_btn">시작하기 ></button>
     </div>
     <div class="sub_page">
         <br>
@@ -43,8 +41,8 @@
                         <h3>5,500원이면 만날 수 있는 넷플릭스.</h3>
                         <p>가장 경제적인 광고형 멤버십을 이용해 보세요.</p>
                     </div>
+                    <button id="sub_btn">자세히 알아보기</button>
                 </div>
-                <button id="sub_btn">자세히 알아보기</button>
             </div>
         </div>
         <h2 id="Hot_content">지금 뜨는 콘텐츠</h2>
