@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main_page">
+        <br>
+        <header class="main_header">
+            <img src="./logo_img.png" alt="./logo_img" height="50px" width="150px">
+            <div class="main_select">
+                <select id="sub_select" name="korea">
+                    <option value="korean">한국어</option>
+                    <option value="english">english</option>
+                </select>
+                <button id="main_btn">로그인</button>
+            </div>
+        </header>
+        <div class="main_login">
+            <h1>영화 시리즈 등을 <br>무제한으로</h1>
+            <h3>5,500원으로 시작하세요. 해지는 언제든 가능합니다.</h3>
+            <br>
+            <p>시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
+            <input id="main_input" type="text" placeholder="이메일 주소">
+            <button id="main_login_btn">시작하기 ></button>
+        </div>
+    </div>
+    <div class="sub_page">
+        <br>
+        <div class="sub_main_page">
+            <img src="./sub_pop_img.png" alt="sub_pop_img" height="90px" width="90px">
+            <div class="main_membership_page">
+                <div id="sub_membership_page">
+                    <div id="member_h3">
+                        <h3>5,500원이면 만날 수 있는 넷플릭스.</h3>
+                        <p>가장 경제적인 광고형 멤버십을 이용해 보세요.</p>
+                    </div>
+                </div>
+                <button id="sub_btn">자세히 알아보기</button>
+            </div>
+        </div>
+        <h2 id="Hot_content">지금 뜨는 콘텐츠</h2>
+        <div>
+            <select class="next_serve" name="nation">
+                <option id="next_option1" value="Korea">대한민국</option>
+                <option id="next_option2" value="global">글로벌</option>
+            </select>
+            <select class="next_sub_page" name="movies">
+                <option value="movie">영화</option>
+                <option value="series">시리즈</option>
+            </select>
+        </div>
+        <ul class="side_movie_page">
+            <li>
+                <span><img id="side_img1" src="./movie_img1.webp" alt="./movie_img"></span>
+            </li>
+            <li>
+                <span><img id="side_img2" src="movie_img2.webp" alt="./movie_img"></span>
+            </li>
+            <li>
+                <span><img id="side_img3" src="./movie_img3.webp" alt="./movie_img3"></span>
+            </li>
+            <li>
+                <span><img id="side_img4" src="movie_img4.webp" alt="./movie_img"></span>
+            </li>
+        </ul>
+        <div>
+            <div class="side_page">
+                <h2>가입해야 하는 또 다른 이유</h2>
+            </div>
+            <div class="movie_page">
+                <div class="movie_sub_page1">
+                    <div>
+                        <h3>TV로 즐기세요</h3>
+                        <br>
+                        <p>스마트 TV, PlayStation, Xbox, <br> Chromecast, Apple TV, <br> 블루레이 플레이어 등 다양한 <br> 디바이스에서 시청하세요.</p>
+                    </div>
+                    <img id="pin_img1" src="./sub_p_img.png" alt="./sub_pop_img">
+                </div>
+                <div class="movie_sub_page2">
+                    <div>
+                        <h4>즐겨 보는 콘텐츠를 <br> 저장해 <br> 오프라인으로 <br> 시청하세요</h4>
+                        <br>
+                        <p>간편하게 저장하고 빈틈없이 <br> 즐겨보세요.</p>
+                    </div>
+                    <img id="pin_img2" src="./sub_b_img.png" alt="./sub_b_img">
+                </div>
+                <div class="movie_sub_page3">
+                    <div>
+                        <h4>다양한 디바이스로 <br> 시청하세요</h4>
+                        <br>
+                        <p>각종 영화와 시리즈를 <br> 스마트폰, 태블릿, 노트북, <br> Tv에서 무제한으로 <br> 스트리밍하세요.</p>
+                    </div>
+                    <img id="pin_img3" src="./sub_s_img.png" alt="./sub_s_img">
+                </div>
+                <div class="movie_sub_page4">
+                    <div>
+                        <h4>어린이 전용 <br> 프로필을 만들어 <br> 보세요</h4>
+                        <p>자기만의 공간에서 좋아하는 <br> 캐릭터와 줄기는 신나는 모험. <br> 자녀에게 이 특별한 경험을 <br> 선물하세요. 넷플릭스 <br> 회원이라면 무료입니다.</p>
+                    </div>
+                    <img id="pin_img4" src="./sub_y_img.png" alt="./sub_y_img">
+                </div>
+            </div>
+        </div>
+        <div class="h2_page">
+            <h2>자주 묻는 질문</h2>
+            <br>
+            <div class="sid_btn">
+                <button id="btn1">넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요? <i id="pin1" class="fa-solid fa-plus fa-1x"></i></button>
+                <br>
+                <button id="btn2">넷플릭스란 무엇인가요? <i id="pin2" class="fa-solid fa-plus fa-1x"></i></button>
+                <br>
+                <button id="btn3">넷플릭스 요금은 얼마인가요? <i id="pin3" class="fa-solid fa-plus fa-1x"></i></button>
+                <br>
+                <button id="btn4">어디에서 시청할 수 있나요? <i id="pin4" class="fa-solid fa-plus fa-1x"></i></button>
+                <br>
+                <button id="btn5">멤버십을 해지하려면 어떻게 하나요? <i id="pin5" class="fa-solid fa-plus fa-1x"></i></button>
+                <br>
+                <button id="btn6">아이들이 넷플릭스를 봐도 좋을까요? <i id="pin6" class="fa-solid fa-plus fa-1x"></i></button>
+            </div>
+        </div>
+        <div class="sub_input_page">
+            <p>시청 할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</h3>
+            <br>
+            <input id="sub_input" type="text" placeholder="이메일 주소">
+            <button id="input_btn">시작하기 ></button>
+        </div>
+        <footer>
+            <div class="main_footer_page">
+                <p>질문이 있으신가요?</p>
+                <a id="footer_a" href="#">:00-308-321-0161(수신자 부담)</a>
+            </div> 
+            <div class="footer_page">
+                <div> 
+                    <ul class="footer_ul1">
+                        <li>
+                            <a class="footer_a" href="#">자주 묻는 질문</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">투자 정보(IR)</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">개인정보 처리방침</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">속도 테스트</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footer_ul2">
+                        <li>
+                            <a class="footer_a" href="#">고객센터</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">입사정보</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">쿠키 설정</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">법적 고지</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footer_ul3">
+                        <li>
+                            <a class="footer_a" href="#">계정</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">넷플릭스 지원 디바이스</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">회사 정보</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">오직 넷플릭스에서</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footer_ul4">
+                        <li>
+                            <a class="footer_a" href="#">미디어 센터</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">이용 약관</a>
+                        </li>
+                        <li>
+                            <a class="footer_a" href="#">문의하기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_select">
+                <select id="sub_footer_select" name="koreann">
+                    <option value="korean">한국어</option>
+                    <option value="english">english</option>
+                </select>
+            </div>
+            <div class="footer_explanatory_text">
+                <p>넷플릭스 대한민국</p>
+                <p>
+                    넷플릭스서비시스코리아 유한회사 통신판매업신고번호: 제2018-서울종로-0426호 전화번호: 00-308-321-0161 (수신자 부담) <br>
+                    대표: 레지널드 숀 톰프슨 <br>
+                    이메일 주소: korea@netflix.com <br>
+                    주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161 <br>
+                    사업자등록번호: 165-87-00119 <br>
+                    클라우드 호스팅: Amazon Web Services Inc.
+                    <br>
+                    <a id="explanatory_a" href="#">공정거래위원회 웹사이트</a>
+                </p>
+            </div>
+        </div>
+    <script src="https://kit.fontawesome.com/3331c75967.js" crossorigin="anonymous"></script> 
+</body>
+</html>
